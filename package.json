@@ -1,0 +1,38 @@
+{
+    "author": "axel.kark@gmail.com",
+    "dependencies": {
+        "@rebble/clay": "1.0.8"
+    },
+    "keywords": [],
+    "name": "marquee",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Marquee",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEXT",
+            "FONT"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "gabbro",
+            "flint"
+        ],
+        "uuid": "2f8dc874-8636-4b6d-9a45-e43132dd454a",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}

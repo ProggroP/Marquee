@@ -1,0 +1,31 @@
+[
+  { "type": "heading", "defaultValue": "Marquee" },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "input",
+        "messageKey": "TEXT",
+        "label": "Display text",
+        "defaultValue": "Hello World!",
+        "attributes": {
+          "placeholder": "type your text …",
+          "limit": 127
+        }
+      },
+      {
+        "type": "select",
+        "messageKey": "FONT",
+        "label": "Font size",
+        "defaultValue": "1",
+        "options": [
+          { "label": "small", "value": "0" },
+          { "label": "medium", "value": "1" },
+          { "label": "large", "value": "2" },
+          { "label": "huge", "value": "3" }
+        ]
+      }
+    ]
+  },
+  { "type": "submit", "defaultValue": "Save" }
+]
