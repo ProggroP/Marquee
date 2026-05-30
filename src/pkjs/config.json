@@ -6,11 +6,11 @@
       {
         "type": "input",
         "messageKey": "TEXT",
-        "label": "Display text",
+        "label": "Display text (max. 256 characters)",
         "defaultValue": "Hello World!",
         "attributes": {
           "placeholder": "type your text …",
-          "limit": 127
+          "limit": 256
         }
       },
       {
